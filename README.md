@@ -35,3 +35,6 @@ I have a few snippets of AWK commands that will pull data out of DSpace log file
 If this sounds like fun, make a pull request with code or just more Markdown pages
 or we can just use the wiki. But, if you like this idea, let me know, I think
 we can make this happen, and make it happen quickly.
+
+# License
+[BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause)
