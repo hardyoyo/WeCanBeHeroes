@@ -36,5 +36,14 @@ If this sounds like fun, make a pull request with code or just more Markdown pag
 or we can just use the wiki. But, if you like this idea, let me know, I think
 we can make this happen, and make it happen quickly.
 
+##Here's a place to start
+
+[Chris Wilper](https://github.com/cwilper) gave me this one-liner for pulling useful data out of a DSpace log:
+
+```
+cat dspace/log/dspace.log.2018-02-09 |grep session_id|grep _item|grep -v view|grep -v browse|awk '{print $1"T"$2,$6}'|awk -F: '{print $1":"$2":"$3,$5,$6,$7}'
+```
+
+
 # License
 [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause)
