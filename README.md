@@ -36,7 +36,7 @@ If this sounds like fun, make a pull request with code or just more Markdown pag
 or we can just use the wiki. But, if you like this idea, let me know, I think
 we can make this happen, and make it happen quickly.
 
-##Here's a place to start
+## Here's a place to start
 
 [Chris Wilper](https://github.com/cwilper) gave me this one-liner for pulling useful data out of a DSpace log:
 
